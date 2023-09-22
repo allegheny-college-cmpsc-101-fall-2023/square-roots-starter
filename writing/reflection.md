@@ -11,26 +11,23 @@ professional report that is suitable for publication on your web site.
 
 ### Use two fenced code blocks to provide output from two different runs of `squareroot` with the same input
 
-TODO: Pick a single input value and run it with:
-(a) the exhaustive algorithm
-and
-(b) the efficient algorithm
-
-TODO: Make sure that you pick a sufficiently large and representative input value!
-
 #### One output from running the exhaustive algorithm
 
-TODO: Provide the specific command that you ran to produce this output
+TODO: Pick an input value and run it with the exhaustive algorithm
+TODO: Provide the specific command that you ran
 TODO: Use a fenced code block to provide the output for this command.
 TODO: Please remember that the input of `25000` is only a suggestion;
 you need to find a sufficiently large and representative input value for your program
+such that you can judge the efficency, or lack thereof.
 
 #### One output from running the efficient algorithm
 
-TODO: Provide the specific command that you ran to produce this output
+TODO: Use the same input value as above and run it with the efficient algorithm
+TODO: Provide the specific command that you ran
 TODO: Use a fenced code block to provide the output for this command.
 TODO: Please remember that the input of `25000` is only a suggestion;
 you need to find a sufficiently large and representative input value for your program
+such that you can judge the efficency, or lack thereof.
 
 ## Performance Analysis
 
@@ -56,6 +53,10 @@ TODO: Use a fenced code block to provide the requested source code
 TODO: Write at least one paragraph to explain the requested source code
 
 ## Professional Assessment
+
+### What was the main difference you felt implementing this CLI vs. the CLI for Primality?
+
+TODO: Provide a response that answers this question in your own words.
 
 ### What are your strengths and weaknesses in the area of writing good commit messages?
 
