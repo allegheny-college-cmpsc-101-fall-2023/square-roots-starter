@@ -37,29 +37,30 @@ def compute_square_root_exhaustive(
     x: int, epsilon: float = 0.01
 ) -> Tuple[bool, float, int]:
     """Compute the square root of a number using an exhaustive method."""
-    # TODO: calculate the step
+    # TODO: define the step size using the margin of error squared
     # TODO: initialize the number of guesses to zero
     # TODO: initialize the answer to 0.0
     # TODO: while the approximation is not within epsilon and
     # the computed answer is less than or equal to the value
-    # of x, keep search for the value of the square root
+    # of x, keep searching for the value of the square root
     # --> TODO: move to the next answer to consider
     # --> TODO: increase the number of guesses
-    # TODO: not able to find the correct answer, so return:
+    # TODO: not able to find the correct answer, return many things:
     # --> False to indicate that the answer was not found
     # --> Current best approximation for the answer
     # --> Number of guesses taken so far in search
-    # TODO: able to find the correct answer, so return:
+    # TODO: able to find the correct answer, so return these things:
     # --> True to indicate that the answer was found
     # --> Current best approximation for the answer
     # --> Number of guesses taken so far in search
-    # TODO: remove this placeholder and add your own code
+    # TODO: remove this placeholder when you write the code above
     return (False, 0.0, 0)
 
 def compute_square_root_efficient(
     x: int, epsilon: float = 0.01
 ) -> Tuple[bool, float, int]:
     """Perform an efficient square root approximation using the efficient bisection method."""
+    # Note, this function must work correctly for x's larger and smaller than 1
     # TODO: initialize the number of guesses to zero
     # TODO: initialize the lower bound to zero
     # TODO: initialize the upper bound to the maximum between 1 and the input value
@@ -69,15 +70,15 @@ def compute_square_root_efficient(
     # --> TODO: narrow the search space by next looking at smaller values
     # --> TODO: narrow the search space by next looking at higher values
     # --> TODO: compute a new best guess for the answer
-    # TODO: not able to find the correct answer, so return:
+    # TODO: not able to find the correct answer, so return many things:
     # --> False to indicate that the answer was not found
     # --> Current best approximation for the answer
     # --> Number of guesses taken so far in search
-    # TODO: able to find the correct answer, so return:
+    # TODO: able to find the correct answer, so return these things:
     # --> True to indicate that the answer was found
     # --> Current best approximation for the answer
     # --> Number of guesses taken so far in search
-    # TODO: remove this placeholder and add your own code
+    # TODO: remove this placeholder when you write the code above
     return (False, 0.0, 0)
 
 
